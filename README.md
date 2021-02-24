@@ -1,12 +1,10 @@
 # Trafikkdata.no
 
-This repository contains the documentation for the [Trafikkdata API](https://www.vegvesen.no/trafikkdata/api/) as well as the [Trafikkdata.no](https://www.vegvesen.no/trafikkdata/) website.
-
-This repo contains information about the trafikkdata domain as well as a changelog for the Trafikkdata API.
+This repository contains documentation and changelog for the [Trafikkdata API](https://www.vegvesen.no/trafikkdata/api/), documentation for the [Trafikkdata.no](https://www.vegvesen.no/trafikkdata/) website, and information about the trafikkdata domain.
 
 ## Feedback
 
-Problems, questions or feedback to the Trafikkdata API or website? Create an [issue](https://github.com/trafikkdata/trafikkdata.no-dokumentasjon/issues), and let us know whats on your mind.
+Problems, questions or feedback to the Trafikkdata API or website? Create an [issue](https://github.com/trafikkdata/trafikkdata.no-dokumentasjon/issues), and let us know what's on your mind.
 
 ## Documentation
 
@@ -17,7 +15,7 @@ Following is the documentation that is also available on trafikkdata.no.
 - [Datakvalitet](docs/about/2-datakvalitet.md)
 - [Beregningsmetodikk](docs/about/3-beregningsmetodikk.md)
 - [Om eksport](docs/about/4-om-eksport.md)
-- [Endringslogg](docs/about/5-enringslogg.md)
+- [Endringslogg](docs/about/5-endringslogg.md)
 
 ### [About API](docs/api/1-about-API.md)
 
