@@ -1,0 +1,11 @@
+api/1-about-API.md
+api/2-usage.md
+api/3-terms-and-conditions.md
+api/4-contact.md
+api/5-changelog.md
+about/1-om-trafikkdata.md
+about/2-datakvalitet.md
+about/3-beregningsmetodikk.md
+about/4-om-eksport.md
+about/5-endringslogg.md
+contact/Kontakt.md
