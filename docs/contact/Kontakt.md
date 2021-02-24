@@ -1,0 +1,2 @@
+Vi setter pris på tilbakemeldinger om trafikkdataportalen for å kunne gjøre forbedringer og rette feil.
+Send en e-post til <a href="mailto:trafikkdata@vegvesen.no?subject=Tilbakemelding trafikkdataportalen">trafikkdata@vegvesen.no</a>.
