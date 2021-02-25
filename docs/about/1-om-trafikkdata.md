@@ -24,6 +24,15 @@ Sykkeltrafikk kan registreres med ulike sensorer. I dag benyttes induktive sløy
 
 ![Sløyfer og måleskap på St. Olavs Pir ved Skansen i Trondheim.](images/loop-and-datalogger.png)
 
+
+## Registreringshyppighet
+Med registreringshyppighet menes hvor ofte trafikken registreres ved et trafikkregistreringspunkt. Hyppigheten kan være en av to verdier: kontinuerlig eller periodisk.
+
+Kontinuerlige registreringer foretas døgnet rundt, hele året, år etter år.
+
+Periodiske registreringer foretas døgnet rundt i kortere perioder, typisk i en ukes tid. Registreringsperioden gjentas så 4-5 ganger samme kalenderår. Prosedyren gjentas så hvert fjerde år.
+
+
 ## Tilgjengelige data
 
 Følgende data er nå tilgjengelig fra registreringsutstyr tilpasset ny løsning:
