@@ -2,9 +2,9 @@
 
 All notable changes to the API will be documented here.
 
-## 10-03-2020
+## 10-03-2021
 
-**Breaking changes to the API.** Several fields will be made nullable on March 22, 2020. Two deprecated fields will be removed.
+**Breaking changes to the API.** Several fields will be made nullable on March 22, 2021. Two deprecated fields will be removed.
 
 In the coming months, the Traffic Data API will be extended with historical data from the period 1996 - 2019. This dataset has slight differences compared to the traffic data that is currently available. Unfortunately, this requires making a few breaking changes to the GraphQL API. The API schema will be updated to reflect the below changes on the 22th of March, with historical aggregates becoming available gradually in the months following. Hour and day aggregates are due first, then average volumes.
 
@@ -24,6 +24,6 @@ The historical data has slightly different length ranges classes compared to the
 
 The `validSpeedRatio` and `validLengthRatio` fields for hour and day aggregates have been deprecated for more than a year and will now be removed. Use of these fields should be replaced with `volumeNumbers > validSpeed` and `volumeNumbers > validLength`.
 
-## 26-02-2020
+## 26-02-2021
 
 Changes to the Trafikkdata API will be published here. In addition the changes will be availible on the Twitter account [@VegvesenData](https://twitter.com/vegvesendata).
