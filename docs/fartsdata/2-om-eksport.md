@@ -29,36 +29,19 @@ CSV-filene som blir eksportert inneholder følgende kolonnetitler:
 <dt>Antall passeringer</dt>
   <dd>Antall passeringer totalt for den aktuelle perioden</dd>
 <dt>Antall gyldige passeringer</dt>
-  <dd>Antall passeringer totalt med gyldig fartsmåling for den aktuelle perioden</dd>
+  <dd>Antall passeringer totalt med gyldig fartsmåling for den aktuelle perioden.</dd>
 <dt>Gjennomsnittshastighet</dt>
-  <dd></dd>
+  <dd>Gjennomsnittshastighet for alle gyldige passeringer for den aktuelle perioden.</dd>
 
 <dt>85 persentil hastighet</dt>
-<dd></dd>
+<dd>85 persentilen for alle gyldige passeringer for den akutelle perioden.</dd>
 <dt>Hastighetsfordeling</dt>
 <dd>[7.0-30.0) km/t</dd>
 <dd>[30.0-35.0) km/t</dd>
 <dd>[35.0-40.0) km/t</dd>
-<dd>[40.0-45.0) km/t</dd>
-<dd>[45.0-50.0) km/t</dd>
-<dd>[50.0-55.0) km/t</dd>
-<dd>[55.0-60.0) km/t</dd>
-<dd>[60.0-65.0) km/t</dd>
-<dd>[65.0-70.0) km/t</dd>
-<dd>[70.0-75.0) km/t</dd>
-<dd>[75.0-80.0) km/t</dd>
-<dd>[80.0-85.0) km/t</dd>
-<dd>[85.0-90.0) km/t</dd>
-<dd>[90.0-95.0) km/t</dd>
-<dd>[95.0-100.0) km/t</dd>
-<dd>[100.0-105.0) km/t</dd>
-<dd>[105.0-110.0) km/t</dd>
-<dd>[110.0-115.0) km/t</dd>
-<dd>[115.0-120.0) km/t</dd>
-<dd>[120.0-125.0) km/t</dd>
-<dd>[125.0-130.0) km/t</dd>
-<dd>[130.0-135.0) km/t</dd>
-<dd>[135.0-140.0) km/t</dd>
+<dd>.</dd>
+<dd>.</dd>
+<dd>.</dd>
 <dd>[140.0-145.0) km/t</dd>
 <dd>[145.0-150.0) km/t</dd>
 <dd>[150.0-300.0) km/t</dd>
