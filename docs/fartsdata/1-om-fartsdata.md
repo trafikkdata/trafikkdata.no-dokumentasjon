@@ -6,7 +6,7 @@ Under er en oversikt over hvordan du skal gå frem for å få tilgang til fartsd
 ## For interne
 For deg som er ansatt i Statens Vegvesen.
 
-* Logg på selvbetjeningsportalen for tilganger og be om rollen “Trafikkdata – Fart”
+* Logg på [selvbetjeningsportalen](https://www.vegvesen.no/idportalen/selvbetjening/) for tilganger og be om rollen “Trafikkdata – Fart”
 * Logg inn og ta fartsdata i bruk
 
 ## For eksterne
