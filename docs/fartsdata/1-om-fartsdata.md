@@ -8,7 +8,7 @@ Trafikkregistreringspunktene kontinuerlig registrerer fart, lengde på kjøretø
 
 Med de rette tilgangene kan man laste ned fartsdatarapporter.
 
-##Hvordan få tilgang til fartsdata
+###Hvordan få tilgang til fartsdata
 Under er en oversikt over hvordan du skal gå frem for å få tilgang til fartsdata.
 
 ## For interne
