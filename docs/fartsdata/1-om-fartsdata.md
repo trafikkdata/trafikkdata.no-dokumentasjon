@@ -1,5 +1,5 @@
 ## Om fartsdata
-###Hva er fartsdata
+### Hva er fartsdata
 Fartsdata er data om fartsnivået på vegnettet som registreres og samles opp av målepunkter langs veiene. Trafikkdata.no har punktmålinger fra trafikkregistreringsstasjoner på det statelige og fylkeskommunale vegnettet, samt noen kommunale veger.
 
 Trafikkregistreringsstasjoner har ett eller flere trafikkregistreringspunkter knyttet til seg. Trafikkregistreringspunkter er stedfestninger på veien der trafikken blir registrert, og all informasjon om trafikkregistreringspunktene og tilhørende farts- og trafikkdata er tilgjengelige her i trafikkdataportalen.
@@ -8,7 +8,7 @@ Trafikkregistreringspunktene kontinuerlig registrerer fart, lengde på kjøretø
 
 Med de rette tilgangene kan man laste ned fartsdatarapporter.
 
-###Hvordan få tilgang til fartsdata
+### Hvordan få tilgang til fartsdata
 Under er en oversikt over hvordan du skal gå frem for å få tilgang til fartsdata.
 
 ## For interne
