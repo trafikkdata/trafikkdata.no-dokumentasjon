@@ -1,13 +1,8 @@
-# Om eksport
+# Om fartsdatafilen
 
-Data blir eksportert som en .CSV-fil. CSV står for "Comma-separated
-values", et filformat for å representere data i tabellform. Første linje i
-filen definerer kolonnetitler, mens påfølgende linjer representerer rader.
-For å lette bruk i norske versjoner av Excel, er hver rad delt i kolonner
-med semikolon som separatortegn. For andre versjoner av Excel må man selv
-spesifisere at semikolon er separatortegn.
+Data blir eksportert som en CSV-fil. CSV står for "Comma-separated values", et filformat som representerer data i tabellform. Første linje i filen definerer kolonnetitler, mens påfølgende linjer representerer rader. For å gjøre bruk i norske versjoner av Excel enklere er hver rad delt i kolonner med semikolon som separatortegn. For andre versjoner av Excel må en selv spesifisere semikolon som separatortegn. Det finnes ikke fartsdata på sykkelpasseringer.
 
-CSV-filene som blir eksportert inneholder følgende kolonnetitler:
+CSV-filene som blir eksportert inneholder følgende begreper:
 
 <dl>
   <dt>Trafikkregistreringspunkt</dt>
@@ -16,8 +11,8 @@ CSV-filene som blir eksportert inneholder følgende kolonnetitler:
   <dd>Punktets plassering på vegnettet.</dd>
   <dt>Navn</dt>
   <dd>Punktets navn.</dd>
-  <dt>Feltnummer</dt>
-  <dd>Kjørefeltet som kjøretøyet er registrert i. Angir fysisk plassering i vegbanen. </dd>
+  <dt>Felt</dt>
+  <dd>Kjørefeltet som kjøretøyet er registrert i. Angir fysisk plassering i vegbanen.</dd>
 <dt>Dato</dt>
   <dd>Dato for periodens aggregater.</dd>
 <dt>Dag</dt>
@@ -25,54 +20,21 @@ CSV-filene som blir eksportert inneholder følgende kolonnetitler:
 <dt>Måned</dt>
   <dd>Måneden for den aktuelle perioden.</dd>
 <dt>Timestart</dt>
-  <dd>Starttidspunktet for timen.</dd>
+  <dd>Tidspunkt måleperioden begynner.</dd>
 <dt>Antall passeringer</dt>
-  <dd>Antall passeringer totalt for den aktuelle perioden</dd>
-<dt>Antall gyldige passeringer</dt>
-  <dd>Antall passeringer totalt med gyldig fartsmåling for den aktuelle perioden.</dd>
-<dt>Gjennomsnittshastighet</dt>
-  <dd>Gjennomsnittshastighet for alle gyldige passeringer for den aktuelle perioden.</dd>
+  <dd>Antall passeringer totalt for den aktuelle perioden.</dd>
+<dt>Gyldige passeringer</dt>
+  <dd>Antallet registreringer der kvaliteten på fartsmålingen er gyldig. Fartsmålinger som ikke er gyldige er ekskludert fra utregninger av gjennomsnittsfart og 85-fraktil.</dd>
+<dt>Gjennomsnittsfart</dt>
+  <dd>Gjennomsnittsfart for alle gyldige passeringer i den aktuelle perioden.</dd>
 
-<dt>85 persentil hastighet</dt>
-<dd>85 persentilen for alle gyldige passeringer for den akutelle perioden.</dd>
-<dt>Hastighetsfordeling</dt>
-<dd>[7.0-30.0) km/t</dd>
-<dd>[30.0-35.0) km/t</dd>
-<dd>[35.0-40.0) km/t</dd>
-<dd>.</dd>
-<dd>.</dd>
-<dd>.</dd>
-<dd>[140.0-145.0) km/t</dd>
-<dd>[145.0-150.0) km/t</dd>
-<dd>[150.0-300.0) km/t</dd>
-
-<dt>Lette kjøretøy (Snittfart)</dt>
-<dd>Snittfart for alle lette kjøretøy under den aktuelle perioden</dd>
-<dt>Tunge kjøretøy (Snittfart)</dt>
-<dd>Snittfart for alle tunge kjøretøy under den aktuelle perioden</dd>
-<dt>Lette kjøretøy (Antall)</dt>
-<dd>Totalt antall lette kjøretøy under den aktuelle perioden</dd>
-<dt>Tunge kjøretøy (Antall)</dt>
-<dd>Totalt antall lette kjøretøy under den aktuelle perioden</dd>
-
-
-  <dt>5,6 m - 7,6 m</dt>
-  <dd>
-  Snitthastighet og antall kjøretøy målt til å være større enn eller lik 5,6 m og mindre enn
-  7,6 m.
-  </dd>
-  <dt>7,6 m - 12,5 m</dt>
-  <dd>
-    Snitthastighet og antall kjøretøy målt til å være større enn eller lik 7,6 m og mindre enn
-  12,5 m.
-  </dd>
-  <dt>12,5 m - 16,0 m</dt>
-  <dd>
-    Snitthastighet og antall kjøretøy målt til å være større enn eller lik 12,5 m og mindre
-  enn 16,0 m.
-  </dd>
-  <dt>16,0 m <</dt>
-  <dd>
-    Snitthastighet og antall kjøretøy målt til å være større enn eller lik 16,0 m.
-  </dd>
-</dl>
+<dt>85-fraktil</dt>
+<dd>85-fraktilen regnes ut ved å sortere fartsmålingene etter fart, fra tregest til rasket. 85-fraktilen er farten til den 15% raskeste bilen i denne listen.</dd>
+<dt>Fartsfordeling</dt>
+<dd>Antall kjøretøy inndelt i fartsintervaller på 5 km/t, fra og med 7 km/t til og med 300 km/t.</dd>
+<dt>Lengdeklasse</dt>
+<dd>Inndeling av registrerte kjøretøyen basert på kjøretøyenes lengde.</dd>
+<dt>Lette kjøretøy</dt>
+<dd>Kjøretøy med en lende som er kortere enn 5,6 m.</dd>
+<dt>Tunge kjøretøy</dt>
+<dd>Kjøretøy med en lende som er lengre enn eller lik 5,6 m. Øvre grense for gyldig lengdemåling er 27,0 m.</dd>
