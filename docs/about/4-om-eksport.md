@@ -32,7 +32,7 @@ CSV-filene som blir eksportert inneholder følgende kolonnetitler:
   <dd>Måned for den aktuelle perioden.</dd>
   <dt>Sesong (kun for sesongdøgntrafikk)</dt>
   <dd>Sesong for den aktuelle perioden.</dd>
-  <dt>Volum</dt>
+  <dt>Trafikkmengde</dt>
   <dd>Trafikkmengden for den aktuelle perioden. For måned-, sesong- og årsdøgntrafikk er dette gjennomsnittlig trafikkmengde per døgn.</dd>
   <dt>Konfidensintervall start (kun for måned-, sesong- og årsdøgntrafikk)</dt>
   <dd>Nedre grense for 95%-konfidensintervall for trafikkmengden for den aktuelle perioden.</dd>
@@ -108,4 +108,4 @@ CSV-filene som blir eksportert inneholder følgende kolonnetitler:
 </dl>
 
 CSV for sykkelpunkter bruker akkurat samme oppsett som for kjøretøy, bare
-en "-" for alle lengdeklassevolumtall.
+en "-" for alle trafikkmengder for lengdeklasser.

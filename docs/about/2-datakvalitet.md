@@ -85,7 +85,7 @@ For aggregerte data (timetrafikk og døgntrafikk) vil en dekningsgrad på 50% be
 
 Dekningsgraden beregnes basert på målestasjonens operasjonelle status og fulltallighet, samt eventuelle manuelle merkinger som gjelder for kjørefeltene på det aktuelle trafikkregistreringspunktet.
 
-Gjennomsnittstallene (f.eks. ÅDT, MDT) beregnes som gjennomsnittlig trafikkvolum for dager med 95% dekningsgrad eller høyere.
+Gjennomsnittstallene (f.eks. ÅDT, MDT) beregnes som gjennomsnittlig trafikkmengde for dager med 95% dekningsgrad eller høyere.
 Dekningsgrad for gjennomsnittstrafikk er gjennomsnittet av dekningsgrad for dagene som inngår i gjennomsnittstrafikken, multiplisert med andelen dager som inngår.
 Som eksempel: Hvis halvparten av dagene i februar (14 dager) har dekningsgrad 60%, og halvparten (14 dager) har 96%, vil bare dagene med dekningsgrad 96% være inkludert, og dekningsgraden for februar vil bli 96%\*(14/28) = 48%.
 En lav dekningsgrad for gjennomsnittstall indikerer derfor at gjennomsnittstallet er mindre representativt enn det ville vært med 100% dekningsgrad.
