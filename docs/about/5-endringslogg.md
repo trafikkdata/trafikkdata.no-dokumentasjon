@@ -4,12 +4,12 @@ Alle større endringer på Trafikkdata.no vil dokumenteres her.
 
 ## 12.12.2022
 
-**Breaking changes - CSV-eksport.**
+**CSV-eksport.**
 
 Vi har ryddet opp i navngivningen rundt trafikkmengde.
 Tidligere ble både "Volum" og "Antall passeringer" brukt om trafikkmengde på nettsidene og i CSV-eksporten. Disse er nå erstattet med "Trafikkmengde".
 
-CSV-eksport: kolonne-overskriften "Volum" endres til "Trafikkmengde".
+CSV-eksport: kolonne-overskriften "Volum" endres til "Trafikkmengde". Eventuelle klient-endringer må tilpasses deretter.
 
 ## 24.02.2021
 
