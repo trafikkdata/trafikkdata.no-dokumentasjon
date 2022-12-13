@@ -2,6 +2,18 @@
 
 All notable changes to the API will be documented here.
 
+## 13-12-2022
+
+No breaking changes, only additions and deprecations. The deprecated fields will be removed on 15.06.2023 at the earliest.
+
+### Lane numbers and traffic directions according to road link direction
+
+Added field `Lane.laneNumberAccordingToRoadLink`. It is now possible to retrieve lanes numbered according to the road link direction. (Traffic in odd-numbered lanes travels with the road link direction, while traffic in even-numbered lanes travels against the road link direction.) This matches the lane numbers used by NVDB, and they do not change over time. `Lane.laneNumberAccordingToMetering` is still available as before, with lane numbers according to the road's current metering direction. `Lane.laneNumber`is now deprecated, as its meaning is ambiguous.
+
+Similarly `Direction.fromAccordingToRoadLink` and `Direction.toAccordingToRoadLink` have been added, while `Direction.from` and `Direction.to` have been deprecated.
+
+`TrafficRegistrationPoint.meteringDirectionChanged` has also been deprecated. It should not be relevant to API consumers anymore, thanks to the new fields described above.
+
 ## 10-03-2021
 
 **Breaking changes to the API.** Several fields will be made nullable on March 22, 2021. Two deprecated fields will be removed.
