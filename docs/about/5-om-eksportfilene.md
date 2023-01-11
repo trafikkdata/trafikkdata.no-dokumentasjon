@@ -11,8 +11,12 @@ CSV-filene som blir eksportert inneholder følgende begreper:
     <dd>Punktets plassering på vegnettet.</dd>
   <dt>Navn</dt>
     <dd>Punktets navn.</dd>
-  <dt>Kjørefelt</dt>
+  <dt>Felt</dt>
     <dd>Kjørefeltet som kjøretøyet er registrert i. Angir fysisk plassering i vegbanen.</dd>
+  <dt>Retning</dt>
+    <dd>Den faktiske kjøreretningen til kjøretøyet. I tilfeller der bilen kjører på "feil" side av vegen, blir kjøreretningen angitt som den motsatte av feltets angitte retning.</dd>
+  <dt>Totalt</dt>
+    <dd>Angir summen av alle kjørefelt (det samme som summen av begge retninger).</dd>
   <dt>Dato</dt>
     <dd>Dato for periodens aggregater.</dd>
   <dt>Dag</dt>
@@ -32,7 +36,7 @@ CSV-filene som blir eksportert inneholder følgende begreper:
   <dt>Til tidspunkt (kun for timetrafikk)</dt>
     <dd>Sluttidspunktet for timen.</dd>
   <dt>Trafikkmengde</dt>
-    <dd>Trafikkens størrelse uttrykt i antall kjøretøy evt. personbilenheter. For måned-, sesong- og årsdøgntrafikk er dette gjennomsnittlig trafikkmengde per døgn.</dd>
+    <dd>Trafikkens størrelse uttrykt i antall kjøretøy. For måned-, sesong- og årsdøgntrafikk er dette gjennomsnittlig trafikkmengde per døgn.</dd>
   <dt>Gyldige passeringer</dt>
     <dd>Antallet registreringer der kvaliteten på fartsmålingen er gyldig. Fartsmålinger som ikke er gyldige er ekskludert fra utregninger av gjennomsnittsfart og 85-fraktil.</dd>
   <dt>Gjennomsnittshastighet</dt>
@@ -43,9 +47,23 @@ CSV-filene som blir eksportert inneholder følgende begreper:
     <dd>Antall kjøretøy inndelt i fartsintervaller på 5 km/t.</dd>
   <dt>Lengdeklasse</dt>
     <dd>Inndeling av registrerte kjøretøyen basert på kjøretøyenes lengde.</dd>
-  <dt>Lette kjøretøy</dt>
+  <dt>< 5,6 m</dt>
+    <dd>Antall kjøretøy målt til å være kortere enn 5,6 m. Grensen 5,6 m brukes som skille på lette og tunge kjøretøy.</dd>
+  <dt>> 5,6 m</dt>
+    <dd>Antall kjøretøy målt til å være større enn eller lik 5,6 m.</dd>
+  <dt>5,6 m - 7,6 m</dt>
+    <dd>Antall kjøretøy målt til å være større enn eller lik 5,6 m og mindre enn 7,6 m.</dd>
+  <dt>7,6 m - 12,5 m</dt>
+    <dd>Antall kjøretøy målt til å være større enn eller lik 7,6 m og mindre enn 12,5 m.</dd>
+  <dt>12,5 m - 16,0 m</dt>
+    <dd>Antall kjøretøy målt til å være større enn eller lik 12,5 m og mindre enn 16,0 m.</dd>
+  <dt>16,0 m - 24,0 m</dt>
+    <dd>Antall kjøretøy målt til å være større enn eller lik 16,0 m og mindre enn 24,0 m.</dd>
+  <dt>> 24,0 m</dt>
+    <dd>Antall kjøretøy målt til å være større enn eller lik 24,0 m. Øvre grense for gyldig lengdemåling er 27,0 m.</dd>
+  <dt>Korte kjøretøy</dt>
     <dd>Kjøretøy med en lende som er kortere enn 5,6 m.</dd>
-  <dt>Tunge kjøretøy</dt>
+  <dt>Lange kjøretøy</dt>
     <dd>Kjøretøy med en lende som er lengre enn eller lik 5,6 m. Øvre grense for gyldig lengdemåling er 27,0 m.</dd>
   <dt>Konfidensintervall start (kun for måned-, sesong- og årsdøgntrafikk)</dt>
     <dd>Nedre grense for 95%-konfidensintervall for trafikkmengden for den aktuelle perioden.</dd>
