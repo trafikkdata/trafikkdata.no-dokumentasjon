@@ -69,7 +69,7 @@ CSV-filene som blir eksportert inneholder følgende begreper:
     <dd>Nedre grense for 95%-konfidensintervall for trafikkmengden for den aktuelle perioden.</dd>
   <dt>Konfidensintervall slutt (kun for måned-, sesong- og årsdøgntrafikk)</dt>
     <dd>Øvre grense for 95%-konfidensintervall for trafikkmengden for den aktuelle perioden.</dd>
-  <dt>Antall timer eller døgn total</dt>
+  <dt>Antall timer eller døgntotal</dt>
     <dd>Antall timer eller døgn i perioden.</dd>
   <dt>Antall timer inkludert (kun for time- og døgntrafikk)</dt>
     <dd>Antall timer som har data i perioden.</dd>
