@@ -42,7 +42,7 @@ CSV-filene som blir eksportert inneholder følgende begreper:
   <dt>Gjennomsnittshastighet</dt>
     <dd>Gjennomsnittshastighet for alle gyldige passeringer for den aktuelle perioden.</dd>
   <dt>85-persentil</dt>
-    <dd>85-persentilen regnes ut ved å sortere fartsmålingene etter hastighet, fra tregest til rasket. Hvis du har 100 fartsmålinger, er 85-persentilen den femtende raskeste målingen.</dd>
+    <dd>85-persentilen regnes ut ved å sortere fartsmålingene etter hastighet, fra tregest til raskest. Hvis du har 100 fartsmålinger, er 85-persentilen den femtende raskeste målingen.</dd>
   <dt>Fartsfordeling</dt>
     <dd>Antall kjøretøy inndelt i fartsintervaller på 5 km/t.</dd>
   <dt>Lengdeklasse</dt>
@@ -83,9 +83,9 @@ CSV-filene som blir eksportert inneholder følgende begreper:
     <dd>Antall kjøretøy som er vurdert til å ha underkjent lengdemåling. Disse kjøretøyene inngår ikke i lengdeklassifiseringen.</dd>
   <dt>Lengdekvalitetsgrad</dt>
     <dd>Andel i prosent av kjøretøy med godkjent lengdemåling.</dd>
-  <dt>Felt gyldig fra dato(kun for time- og døgntrafikk)</dt>
+  <dt>Felt gyldig fra dato (kun for time- og døgntrafikk)</dt>
     <dd>Gyldighet for vegens inndeling i kjørefelt. (Dette kan endre seg over tid, f.eks. når en veg utvides fra 2 til 4 kjørefelt).</dd>
-  <dt>Felt gyldig til dato(kun for time- og døgntrafikk)</dt>
+  <dt>Felt gyldig til dato (kun for time- og døgntrafikk)</dt>
     <dd>For historiske feltinndelinger vil det angis et sluttidspunkt her. Fravær av verdi her betyr at oppgitt felt fortsatt er gyldig i dag.</dd>
 </dl>
 
