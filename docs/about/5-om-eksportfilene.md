@@ -64,7 +64,7 @@ CSV-filene som blir eksportert inneholder følgende begreper:
   <dt>Korte kjøretøy</dt>
     <dd>Kjøretøy med en lengde som er kortere enn 5,6 m.</dd>
   <dt>Lange kjøretøy</dt>
-    <dd>Kjøretøy med en lende som er lengre enn eller lik 5,6 m. Øvre grense for gyldig lengdemåling er 27,0 m.</dd>
+    <dd>Kjøretøy med en lengde som er lengre enn eller lik 5,6 m. Øvre grense for gyldig lengdemåling er 27,0 m.</dd>
   <dt>Konfidensintervall start (kun for måned-, sesong- og årsdøgntrafikk)</dt>
     <dd>Nedre grense for 95%-konfidensintervall for trafikkmengden for den aktuelle perioden.</dd>
   <dt>Konfidensintervall slutt (kun for måned-, sesong- og årsdøgntrafikk)</dt>
