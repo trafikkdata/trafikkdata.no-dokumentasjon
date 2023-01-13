@@ -46,7 +46,7 @@ CSV-filene som blir eksportert inneholder følgende begreper:
   <dt>Fartsfordeling</dt>
     <dd>Antall kjøretøy inndelt i fartsintervaller på 5 km/t.</dd>
   <dt>Lengdeklasse</dt>
-    <dd>Inndeling av registrerte kjøretøyen basert på kjøretøyenes lengde.</dd>
+    <dd>Inndeling av registrerte kjøretøy basert på kjøretøyenes lengde.</dd>
   <dt>< 5,6 m</dt>
     <dd>Antall kjøretøy målt til å være kortere enn 5,6 m. Grensen 5,6 m brukes som skille på lette og tunge kjøretøy.</dd>
   <dt>> 5,6 m</dt>
@@ -62,7 +62,7 @@ CSV-filene som blir eksportert inneholder følgende begreper:
   <dt>> 24,0 m</dt>
     <dd>Antall kjøretøy målt til å være større enn eller lik 24,0 m. Øvre grense for gyldig lengdemåling er 27,0 m.</dd>
   <dt>Korte kjøretøy</dt>
-    <dd>Kjøretøy med en lende som er kortere enn 5,6 m.</dd>
+    <dd>Kjøretøy med en lengde som er kortere enn 5,6 m.</dd>
   <dt>Lange kjøretøy</dt>
     <dd>Kjøretøy med en lende som er lengre enn eller lik 5,6 m. Øvre grense for gyldig lengdemåling er 27,0 m.</dd>
   <dt>Konfidensintervall start (kun for måned-, sesong- og årsdøgntrafikk)</dt>
@@ -89,5 +89,5 @@ CSV-filene som blir eksportert inneholder følgende begreper:
     <dd>For historiske feltinndelinger vil det angis et sluttidspunkt her. Fravær av verdi her betyr at oppgitt felt fortsatt er gyldig i dag.</dd>
 </dl>
 
-CSV for sykkelpunkter bruker akkurat samme oppsett som for kjøretøy, bare
-en "-" for alle trafikkmengder for lengdeklasser.
+CSV for sykkelpunkter bruker akkurat samme oppsett som for kjøretøy, men man
+får bare en "-" for alle trafikkmengder for lengdeklasser.

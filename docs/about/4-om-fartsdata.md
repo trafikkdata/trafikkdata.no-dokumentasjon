@@ -4,7 +4,7 @@ Fartsdata er data om fartsnivået på vegnettet som registreres og samles opp av
 
 Trafikkregistreringsstasjoner har ett eller flere trafikkregistreringspunkter knyttet til seg. Trafikkregistreringspunkter er stedfestinger på veien der trafikken blir registrert, og all informasjon om trafikkregistreringspunktene og tilhørende farts- og trafikkdata er tilgjengelige her i trafikkdataportalen.
 
-Trafikkregistreringspunktene kontinuerlig registrerer fart, lengde på kjøretøyet og avstand i tid mellom kjøretøyene registrert i hvert kjørefelt. Denne dataen brukes til å regne ut gjennomsnittshastigheter og 85-fraktiler for kjøretøyene.
+Trafikkregistreringspunktene registrerer fart, lengde på kjøretøyet og avstand i tid mellom kjøretøyene i hvert kjørefelt. Denne dataen brukes til å regne ut gjennomsnittshastigheter og 85-fraktiler for kjøretøyene.
 
 Med de rette tilgangene kan man laste ned fartsdatarapporter.
 
