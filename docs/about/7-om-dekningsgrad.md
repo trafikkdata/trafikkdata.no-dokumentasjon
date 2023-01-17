@@ -17,15 +17,15 @@ Manuelle merkinger kan gjelde ett eller flere av følgende forhold:
 * Unormalt fartsnivå
 
 ## Matematisk formulering
-Dekningsgraden er satt sammen av flere komponenter som hver kan beskrives som en funksjon av en parameter.  
+Dekningsgraden er satt sammen av flere komponenter som hver enkelt kan beskrives som en funksjon av en parameter.  
   
 Operasjonelltid kan modelleres som en enhetsstegfunksjon som er lik 1 når trafikkregistreringspunktet er operasjonelt og 0 ellers.  
   
-Dataoverføringskomplettheten kan modelleres som en kontinuerlig funksjon med verdimengde mellom 0 og 1, der 1 angir at alle data er overført og 0 angir at ingen data er overført.  
+Dataoverføringskomplettheten (også kalt fulltallighet) kan modelleres som en kontinuerlig funksjon med verdimengde mellom 0 og 1, der 1 angir at alle data er overført og 0 angir at ingen data er overført.  
   
-Manuelle merkinger for stengt veg og feil i registrering kan hver modelleres som en enhetsstegfunksjon som er lik 1 når registreringen ikke har feil ved seg, mens den er 0 når en merking er lagt inn for det aktuelle tidsintervallet.  
+Manuelle merkinger for stengt veg og for feil i registrering kan hver for seg modelleres som enhetsstegfunksjoner som er lik 1 når registreringen ikke har feil ved seg, og lik 0 dersom en manuell merking er lagt inn for det aktuelle tidsintervallet.  
   
-Andel gyldige verdier for lengde, fart og kjøretøyklasse kan hver modelleres som en kontinuerlig funksjon med verdimengde mellom 0 og 1, der 1 angir at alle data har gyldig verdi for respektive målestørrelse.  
+Andel gyldige verdier for lengde, fart og kjøretøyklasse kan hver enkelt modelleres som en kontinuerlig funksjon med verdimengde mellom 0 og 1, der 1 angir at alle data har gyldig verdi for respektive målestørrelse.  
   
 Dekningsgraden kan dermed enkelt regnes ut som produktet av de relevante funksjonene. Utregningsmetoden for de ulike dekningsgradene er beskrevet i det følgende.
 
@@ -46,7 +46,7 @@ Dersom et målepunkt har mulighet til å måle fart, men ikke lende på kjøret�
 Dekningsgrad for fart settes sammen av følgende verdier som vist i figur 2:  
 * Operasjonelltid  
 * Dataoverføringskompletthet (fulltallighet)  
-* Andel gyldige fartsmålinger  
+* Andel gyldige fartsmålinger delt på total andel fartsmålinger
 * Manuell merking for stengt veg  
 * Manuell merking for feil på utstyr (ingen gyldige data)  
 * Manuell merking for feil fartsmålinger
@@ -60,7 +60,7 @@ Måling av fart og lengde er gjerne sterkt korrelert på grunn av måten de regn
 Dekningsgrad for fart med lengdeklasser settes sammen av følgende verdier som vist i figur 3:  
 * Operasjonelltid  
 * Dataoverføringskompletthet (fulltallighet)  
-* Andel med både gyldig lengde- og fartsmåling  
+* Andel med både gyldig lengde- og fartsmåling delt på total andel fartsmålinger
 * Manuell merking for stengt veg  
 * Manuell merking for feil på utstyr (ingen gyldige data)  
 * Manuell merking for feil lengdemålinger  
