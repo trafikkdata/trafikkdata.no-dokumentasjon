@@ -9,4 +9,5 @@ about/3-beregningsmetodikk.md
 about/4-om-fartsdata.md
 about/5-om-eksportfilene.md
 about/6-endringslogg.md
+about/7-om-dekningsgrad.md
 contact/Kontakt.md
