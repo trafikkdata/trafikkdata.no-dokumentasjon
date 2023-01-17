@@ -2,7 +2,7 @@
 ## Generell informasjon 
 Et trafikkregistreringspunkt har ikke alltid klart å fange opp all trafikk med gode måleverdier. Måleusikkerhet er noe en bruker av trafikkdata må være oppmerksom på. Derfor bør alle trafikkdataverdier ha tilknyttet informasjon om måleusikkerheten. Dekningsgrad sier noe om måleusikkerheten ved å angi hvor stor andel av et tidsintervall en trafikkregistrering har data for.
 
-I filene som kan eksporteres fra trafikkdataportalen finnes det tre ulike dekningsgrader: dekningsgrad for trafikkmengde, dekningsgrad for fart, og dekningsgrad for fart med lendeklasser.
+I filene som kan eksporteres fra trafikkdataportalen finnes det tre ulike dekningsgrader: dekningsgrad for trafikkmengde, dekningsgrad for fart, og dekningsgrad for fart med lengdeklasser.
 
 ## Manuelle merkinger
 Manuelle merkinger er lagt inn av fagpersoner som har vurdert datakvaliteten på den aktuelle trafikkregistreringen. En merking gjelder for et angitt tidsintervall og kan enten synliggjøre bortfall av data eller være til opplysning om unormale trafikkforhold.  
@@ -41,12 +41,12 @@ Dekningsgrad for trafikkmengde settes sammen av følgende verdier som vist i fig
 
 
 ## Dekningsgrad for fart
-Dersom et målepunkt har mulighet til å måle fart, men ikke lende på kjøretøyene, vil en dekningsgrad som kun tar hensyn til fart brukes.  
+Dersom et målepunkt har mulighet til å måle fart, men ikke lengde på kjøretøyene, vil en dekningsgrad som kun tar hensyn til fart brukes.  
   
 Dekningsgrad for fart settes sammen av følgende verdier som vist i figur 2:  
 * Operasjonelltid  
 * Dataoverføringskompletthet (fulltallighet)  
-* Andel gyldige fartsmålinger delt på total andel fartsmålinger
+* Antall gyldige fartsmålinger delt på totalt antall fartsmålinger
 * Manuell merking for stengt veg  
 * Manuell merking for feil på utstyr (ingen gyldige data)  
 * Manuell merking for feil fartsmålinger
@@ -60,7 +60,7 @@ Måling av fart og lengde er gjerne sterkt korrelert på grunn av måten de regn
 Dekningsgrad for fart med lengdeklasser settes sammen av følgende verdier som vist i figur 3:  
 * Operasjonelltid  
 * Dataoverføringskompletthet (fulltallighet)  
-* Andel med både gyldig lengde- og fartsmåling delt på total andel fartsmålinger
+* Antall målinger med både gyldig lengde og fart delt på totalt antall målinger
 * Manuell merking for stengt veg  
 * Manuell merking for feil på utstyr (ingen gyldige data)  
 * Manuell merking for feil lengdemålinger  
