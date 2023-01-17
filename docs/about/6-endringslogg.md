@@ -2,9 +2,9 @@
 
 Alle større endringer på Trafikkdata.no vil dokumenteres her.
 
-## 13.01.2023
+## 17.01.2023
 
-Vi har lagt til informasjon om eksport av fartsdata, samt supplementert med nye bregrepsdefinisjoner.
+Vi har lagt til informasjon om eksport av fartsdata, dekningsgrad, samt supplementert med nye bregrepsdefinisjoner.
 
 ## 12.12.2022
 
