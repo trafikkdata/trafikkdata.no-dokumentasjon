@@ -8,6 +8,6 @@ about/2-datakvalitet.md
 about/3-beregningsmetodikk.md
 about/4-om-fartsdata.md
 about/5-om-eksportfilene.md
-about/6-endringslogg.md
-about/7-om-dekningsgrad.md
+about/6-om-dekningsgrad.md
+about/7-endringslogg.md
 contact/Kontakt.md
