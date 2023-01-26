@@ -37,7 +37,7 @@ Dekningsgrad for trafikkmengde settes sammen av følgende verdier som vist i fig
 * Manuell merking for feil på utstyr (ingen gyldige data)
 
 
-![Figur 1. Beregning av dekningsgrad for trafikkmengde](images/dekningsgrad-for-trafikkmengde.svg)
+![Figur 1. Beregning av dekningsgrad for trafikkmengde|840x700](images/dekningsgrad-for-trafikkmengde.svg)
 
 
 ## Dekningsgrad for fart
@@ -52,7 +52,7 @@ Dekningsgrad for fart settes sammen av følgende verdier som vist i figur 2:
 * Manuell merking for feil fartsmålinger
 
 
-![Figur 2. Beregning av dekningsgrad for fartsmålinger](images/dekningsgrad-for-fart.svg)
+![Figur 2. Beregning av dekningsgrad for fartsmålinger|840x700](images/dekningsgrad-for-fart.svg)
 
 ## Dekningsgrad for fart med lengdeklasser
 Måling av fart og lengde er gjerne sterkt korrelert på grunn av måten de regnes ut av registreringsutstyret på. Et aggregat av trafikkdata må derfor ha knyttet til seg en andel av registreringene som har både gyldig lengdemåling og fartsmåling.  
@@ -67,7 +67,7 @@ Dekningsgrad for fart med lengdeklasser settes sammen av følgende verdier som v
 * Manuell merking for feil fartsmålinger
 
 
-![Figur 3. Beregning av dekningsgrad for fartsmålinger med lengdeklassifisering](images/dekningsgrad-for-fart-med-lengdeklasser.svg)
+![Figur 3. Beregning av dekningsgrad for fartsmålinger med lengdeklassifisering|840x700](images/dekningsgrad-for-fart-med-lengdeklasser.svg)
 
 ## Samlet dekningsgrad for flere enn ett kjørefelt
 Trafikkdatastørrelser som er beregnet for flere enn ett kjørefelt får en tilsvarende dekningsgrad. Dersom alle kjørefelt har dekningsgrad forskjellig fra null er dekningsgraden for kjøreretningen lik det aritmetiske gjennomsnittet av kjørefeltenes dekningsgrad. Dersom minst ett kjørefelt har dekningsgrad lik null, så blir dekningsgraden for den kjøreretningen også null.  
