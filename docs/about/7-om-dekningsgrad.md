@@ -36,10 +36,7 @@ Dekningsgrad for trafikkmengde settes sammen av følgende verdier som vist i fig
 * Manuell merking for stengt veg  
 * Manuell merking for feil på utstyr (ingen gyldige data)
 
-
-<img src="images/dekningsgrad-for-trafikkmengde.svg" align="left" width="840" height="700">
-Figur 1. Beregning av dekningsgrad for trafikkmengde
-<br clear="left"/>
+![Figur 1. Beregning av dekningsgrad for trafikkmengde](images/dekningsgrad-for-trafikkmengde.svg = 840x700)
 
 ## Dekningsgrad for fart
 Dersom et målepunkt har mulighet til å måle fart, men ikke lengde på kjøretøyene, vil en dekningsgrad som kun tar hensyn til fart brukes.  
@@ -52,10 +49,7 @@ Dekningsgrad for fart settes sammen av følgende verdier som vist i figur 2:
 * Manuell merking for feil på utstyr (ingen gyldige data)  
 * Manuell merking for feil fartsmålinger
 
-
-<img src="images/dekningsgrad-for-fart.svg" align="left" width="840" height="700">
-Figur 2. Beregning av dekningsgrad for fartsmålinger
-<br clear="left"/>
+![Figur 2. Beregning av dekningsgrad for fartsmålinger](images/dekningsgrad-for-fart.svg = 840x700)
 
 ## Dekningsgrad for fart med lengdeklasser
 Måling av fart og lengde er gjerne sterkt korrelert på grunn av måten de regnes ut av registreringsutstyret på. Et aggregat av trafikkdata må derfor ha knyttet til seg en andel av registreringene som har både gyldig lengdemåling og fartsmåling.  
@@ -69,10 +63,7 @@ Dekningsgrad for fart med lengdeklasser settes sammen av følgende verdier som v
 * Manuell merking for feil lengdemålinger  
 * Manuell merking for feil fartsmålinger
 
-
-<img src="images/dekningsgrad-for-fart-med-lengdeklasser.svg" align="left" width="840" height="700">
-Figur 3. Beregning av dekningsgrad for fartsmålinger med lengdeklassifisering]
-<br clear="left"/>
+![Figur 3. Beregning av dekningsgrad for fartsmålinger med lengdeklassifisering](images/dekningsgrad-for-fart-med-lengdeklasser.svg = 840x700)
 
 ## Samlet dekningsgrad for flere enn ett kjørefelt
 Trafikkdatastørrelser som er beregnet for flere enn ett kjørefelt får en tilsvarende dekningsgrad. Dersom alle kjørefelt har dekningsgrad forskjellig fra null er dekningsgraden for kjøreretningen lik det aritmetiske gjennomsnittet av kjørefeltenes dekningsgrad. Dersom minst ett kjørefelt har dekningsgrad lik null, så blir dekningsgraden for den kjøreretningen også null.  
