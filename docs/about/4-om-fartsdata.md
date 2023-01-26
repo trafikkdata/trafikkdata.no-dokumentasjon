@@ -11,13 +11,13 @@ Med de rette tilgangene kan man laste ned fartsdatarapporter.
 ## Hvordan få tilgang til fartsdata
 Under er en oversikt over hvordan du skal gå frem for å få tilgang til fartsdata.
 
-### For interne
+### For interne i Statens Vegvesen
 For deg som er ansatt i Statens Vegvesen.
 
-* Logg på [selvbetjeningsportalen](https://www.vegvesen.no/idportalen/selvbetjening/) for tilganger og be om rollen “Trafikkdata – Fart”
+* Logg inn på [selvbetjeningsportalen](https://www.vegvesen.no/idportalen/selvbetjening/) for tilganger og søk om enten “Trafikkdata – Fart – Alle veier” eller “Trafikkdata – Fart – Riksveier” etter tjenstlig behov
 * Logg inn og ta fartsdata i bruk
 
-### For eksterne
+### For andre vegeiere
 For deg som ikke er ansatt i Statens Vegvesen, men som trenger fartsdata.
 
 * Kontakt organisasjonen du trenger tilgang til fartsdata fra og be om Altinnrollen “Administrere trafikkdata”
