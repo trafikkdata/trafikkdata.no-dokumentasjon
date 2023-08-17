@@ -1,8 +1,8 @@
-# Datakvalitet
+## Datakvalitet
 
 Alle kjøretøyregistreringer blir kontrollert mot et sett med kvalitetsregler, som er utarbeidet i samråd med utstyrsleverandørene og basert på Statens vegvesens egne tester av registreringsutstyret.
 
-## Kvalitetsregler
+### Kvalitetsregler
 
 Kvalitetsreglene er i korthet skissert her.
 
@@ -27,7 +27,7 @@ I tillegg kommer noen apparatspesifikke regler som baseres på leverandørenes e
 
 For sykkelregistreringer har vi ikke flere regler enn at selve registreringen er ugyldig dersom utstyret mener det var noe annet enn en sykkel som ble registrert.
 
-## Kvalitetsmerker
+### Kvalitetsmerker
 
 Resultatet av kontrollen er at enkeltkjøretøydata lagres med følgende kvalitetsmerker i databasen:
 
@@ -50,15 +50,15 @@ Basert på dette kan vi angi andelen godkjente registreringer i et tidsintervall
 
 - `klassifiseringskvalitetsgrad = (antall registreringer med gyldig klassifisering i perioden) / (totalt antall gyldige registreringer i perioden) * 100 %`
 
-## Bortfall av data
+### Bortfall av data
 
 Det kan være ulike grunner til at data ikke blir registrert eller får systematisk lavere kvalitet i perioder.
 
-### Operasjonell status på målestasjon
+#### Operasjonell status på målestasjon
 
 Registreringsutstyret er operasjonelt fra det tidspunktet det blir igangsatt til det blir satt ut av drift. Dette er manuelle handlinger. Perioder utenfor det operasjonelle intervallet skal ikke være tellende med nulltrafikk i beregninger. Derfor har trafikkdatasystemet lagret informasjon om alle tidspunkt for igangsetting og ut-av-driftssettelse.
 
-### Fulltallighet
+#### Fulltallighet
 
 Fulltallighet er et mål på andelen overførte data fra registreringsapparatet.
 Fulltallighet er definert slik:
@@ -67,7 +67,7 @@ Fulltallighet er definert slik:
 
 Fulltalligheten gjelder for hele timer, og gjelder samlet for en målestasjons registreringsapparat. Fulltalligheten er per definisjon 100 % i timer helt uten trafikk, unntatt i tilfeller hvor det mangler overføring av data over flere timer.
 
-### Manuell merking
+#### Manuell merking
 
 Manuell merking brukes av de målestasjonsansvarlige til å legge inn informasjon om hendelser på vegen eller med registreringsutstyret som påvirker trafikkregistreringene. Perioder kan merkes per kjørefelt med:
 
@@ -78,7 +78,7 @@ Manuell merking brukes av de målestasjonsansvarlige til å legge inn informasjo
 
 Senere vil de manuelle merkingene bli tilgjengeliggjort sammen med data de gjelder for i trafikkdataportalen og API-et.
 
-### Dekningsgrad
+#### Dekningsgrad
 
 Dekningsgrad angir hvor mye data (antall timer og dager) av god nok kvalitet vi har, sammenlignet med det vi hadde hatt uten bortfall.
 For aggregerte data (timetrafikk og døgntrafikk) vil en dekningsgrad på 50% bety at vi bare har data fra 50% av perioden og at den reelle trafikkmengden derfor er større.

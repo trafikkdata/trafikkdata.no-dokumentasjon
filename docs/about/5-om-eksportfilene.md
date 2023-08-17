@@ -1,4 +1,4 @@
-# Om eksportfilene
+## Om eksportfilene
 
 Data blir eksportert som en CSV-fil. CSV står for "Comma-separated values", et filformat som representerer data i tabellform. Første linje i filen definerer kolonnetitler, mens påfølgende linjer representerer rader. For å gjøre bruk i norske versjoner av Excel enklere er hver rad delt i kolonner med semikolon som separatortegn. For andre versjoner av Excel må en selv spesifisere semikolon som separatortegn.
 

@@ -8,8 +8,7 @@ Trafikkregistreringsstasjoner har ett eller flere trafikkregistreringspunkter kn
 
 Trafikkregistreringsstasjoner består av fysisk infrastruktur ved vegen, som skap o.l. Informasjon om disse kan være relevant for de som drifter og vedlikeholder veg og tilknyttet infrastruktur, og er tilgjengelig i NVDB, se for eksempel [vegkart.no](http://vegkart.no).
 
-
-## Motorkjøretøy
+### Motorkjøretøy
 
 Trafikken registreres ved hjelp av induktive sløyfer i vegbanen. Når en bil kjører over sløyfene registreres lengde, fart, kjøretøyklasse og avstand i sekunder til forangående kjøretøy. Det registreres også hvilket kjørefelt og kjøreretning bilen kjører i. Kjørefeltet angis alltid som den faktiske, fysiske plasseringen av bilen i vegbanen. Kjøreretningen angis som den faktiske kjøreretningen til bilen. I tilfeller der bilen kjører på "feil" side av vegen, blir kjøreretningen angitt som den motsatte av feltets angitte retning. Dette vil forekomme ved forbikjøringer. Dersom bilen passerer midt mellom de induktive sløyfene i to motgående kjørefelt, kan bilen få angitt motsatt kjørefelt, men likevel riktig, faktisk kjøreretning.
 
@@ -23,28 +22,25 @@ Alle registrerte kjøretøy blir klassifisert etter kjøretøytype, og motorsykk
 
 ![Figuren viser hvordan trafikken blir registrert og overført til trafikkdatasystemet i sanntid.](images/data-collection.png)
 
-
-## Sykkel
+### Sykkel
 
 Sykkeltrafikk kan registreres med ulike sensorer. I dag benyttes induktive sløyfer og piezoelektriske kabler som legges i gang/sykkelvegene. Når en syklist passerer sensoren registreres farten. Registreringene overføres på samme måte som for motorkjøretøy.
 
 ![Sløyfer og måleskap på St. Olavs Pir ved Skansen i Trondheim.](images/loop-and-datalogger.png)
 
+### Registreringshyppighet
 
-## Registreringshyppighet
 Med registreringshyppighet menes hvor ofte trafikken registreres ved et trafikkregistreringspunkt. Hyppigheten kan være en av to verdier: kontinuerlig eller periodisk.
 
 Kontinuerlige registreringer foretas døgnet rundt, hele året, år etter år.
 
 Periodiske registreringer foretas døgnet rundt i kortere perioder, typisk i en ukes tid. Registreringsperioden gjentas så 4-5 ganger samme kalenderår. Prosedyren gjentas så hvert fjerde år.
 
+### Overgang fra “ukjent” til “kjent datakvalitet”
 
-## Overgang fra “ukjent” til “kjent datakvalitet”
+I perioden 2015 - 2018 ble det gradvis gått over til ny løsning for innsamling og kvalitetskontroll av data. Tidspunktet for denne endringen er ulikt for hvert trafikkregistreringspunkt, men sammenfaller med overgangen fra “ukjent” til “kjent” datakvalitet som er angitt i datovelgeren på hvert punkt. Med “kjent” kvalitet menes at hver kjøretøyregistrering er blitt vurdert opp mot kvalitetskriterier og at alle aggregerte og beregnede størrelser kommer med kvalitetsinformasjon i form av dekningsgrad.
 
-I perioden 2015 - 2018 ble det gradvis gått over til ny løsning for innsamling og kvalitetskontroll av data.  Tidspunktet for denne endringen er ulikt for hvert trafikkregistreringspunkt, men sammenfaller med overgangen fra “ukjent” til “kjent” datakvalitet som er angitt i datovelgeren på hvert punkt. Med “kjent” kvalitet menes at hver kjøretøyregistrering er blitt vurdert opp mot kvalitetskriterier og at alle aggregerte og beregnede størrelser kommer med kvalitetsinformasjon i form av dekningsgrad.
-
-
-## Stedfesting på vegnettet
+### Stedfesting på vegnettet
 
 Alle trafikkregistreringspunkter er stedfestet på vegnettet med en vegsystemreferanse. Vegsystemreferansen angir blant annet vegens vegkategori, vegnummer og strekningsnummer. En del av vegsystemreferansen er en meterverdi som kommer fra oppmåling av vegen i sin lengderetning. Denne oppmålingen omtales som "metrering". Vegene måles opp på vegtrasenivå og har dermed samme meterverdi for alle kjørefelt, unntatt når vegen har adskilte løp som metreres for seg. Vegene metreres ut fra et geografisk punkt, som varierer fra veg til veg.
 
@@ -52,8 +48,7 @@ Trafikken registreres i hvert kjørefelt, som benevnes med et kjørefeltnummer. 
 
 For mer detaljer om vegsystemreferansen, se Statens vegvesens Håndbok V830 Nasjonalt vegreferansesystem, som er tilgjengelig på [vegvesen.no](https://www.vegvesen.no/fag/publikasjoner/handboker).
 
-
-### Kjørefeltnummer ved snudd metreringsretning
+#### Kjørefeltnummer ved snudd metreringsretning
 
 Vegsystemreferansen endrer seg når selve vegnettet endrer seg, som ved bygging av ny veg. Retningen som vegen er oppmålt i kan snus, og dette har skjedd i en del tilfeller i forbindelse med innføring av nytt vegreferansesystem i 2019. Endret metreringsretning medfører at kjørefeltnummer også endrer seg. I Trafikkdataportalen vises alltid kjørefeltnummer i henhold til nåværende metrering, også for historiske data. Kjørefeltenes beskrivelser med stedsnavn vil alltid være korrekt og uendret for det fysiske kjørefeltet, selv om nummeret har endret seg.
 

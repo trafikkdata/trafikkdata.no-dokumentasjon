@@ -1,4 +1,4 @@
-# Om fartsdata
+## Om fartsdata
 
 Fartsdata er data om fartsnivået på vegnettet som registreres og samles opp av målepunkter langs veiene. Trafikkdata.no har punktmålinger fra trafikkregistreringsstasjoner på det statlige og fylkeskommunale vegnettet samt noen kommunale veger.
 
@@ -8,21 +8,24 @@ Trafikkregistreringspunktene registrerer fart, lengde på kjøretøyet og avstan
 
 Med de rette tilgangene kan man laste ned fartsdatarapporter.
 
-## Hvordan få tilgang til fartsdata
+### Hvordan få tilgang til fartsdata
+
 Under er en oversikt over hvordan du skal gå frem for å få tilgang til fartsdata.
 
-### For interne i Statens Vegvesen
+#### For interne i Statens Vegvesen
+
 For deg som er ansatt i Statens Vegvesen.
 
-* Logg inn på [selvbetjeningsportalen](https://www.vegvesen.no/idportalen/selvbetjening/) for tilganger og søk om enten “Trafikkdata – Fart – Alle veier” eller “Trafikkdata – Fart – Riksveier” etter tjenstlig behov
-* Logg inn og ta fartsdata i bruk
+- Logg inn på [selvbetjeningsportalen](https://www.vegvesen.no/idportalen/selvbetjening/) for tilganger og søk om enten “Trafikkdata – Fart – Alle veier” eller “Trafikkdata – Fart – Riksveier” etter tjenstlig behov
+- Logg inn og ta fartsdata i bruk
 
-### For andre vegeiere
+#### For andre vegeiere
+
 For deg som ikke er ansatt i Statens Vegvesen, men som trenger fartsdata.
 
-* Kontakt organisasjonen du trenger tilgang til fartsdata fra og be om Altinnrollen “Administrere trafikkdata”
-* Kontakt trafikkdata@vegvesen.no når du har fått rollen og be om tilgang til fartsdata
-* Svar på invitasjonen du får tilsendt på e-post
-* Logg inn og ta fartsdata i bruk
+- Kontakt organisasjonen du trenger tilgang til fartsdata fra og be om Altinnrollen “Administrere trafikkdata”
+- Kontakt trafikkdata@vegvesen.no når du har fått rollen og be om tilgang til fartsdata
+- Svar på invitasjonen du får tilsendt på e-post
+- Logg inn og ta fartsdata i bruk
 
 Dersom du har spørsmål eller andre behov for fartsdata, send en e-post til trafikkdata@vegvesen.no.
