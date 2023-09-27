@@ -2,6 +2,14 @@
 
 All notable changes to the API will be documented here.
 
+### 19-09-2023
+
+No breaking changes, only additions.
+
+#### AdministrativeAreaHistory
+
+Added field `Location.administrativeAreaHistory`. This shows the history of associated administrative areas (municipalities, counties, and country parts) that have been or are valid for this geographic location.
+
 ### 13-12-2022
 
 No breaking changes, only additions and deprecations. The deprecated fields will be removed on 15.06.2023 at the earliest.
