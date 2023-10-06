@@ -16,7 +16,7 @@ For full documentation of all available queries and fields, use the [GraphiQL in
 
 ### Traffic registration points
 
-A traffic registration point is a location on the road where traffic is registered. For more information, see [Om trafikkdata](om-trafikkdata).
+A traffic registration point is a location on the road where traffic is registered. For more information, see [Om trafikkdata](../about/1-om-trafikkdata.md).
 The `trafficRegistrationPoints` query allows users to list traffic registration points that satisfy certain criteria.
 
 The following example lists all traffic registration points on European routes, with traffic registration point ID, name and coordinates (WGS-84).
