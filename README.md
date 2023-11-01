@@ -1,12 +1,12 @@
-# Trafikkdata.no
+# 🗺️ Trafikkdata.no
 
-This repository contains documentation and changelog for the [Trafikkdata API](https://www.vegvesen.no/trafikkdata/api/), documentation for the [Trafikkdata.no](https://www.vegvesen.no/trafikkdata/) website, and information about the trafikkdata domain.
+This repository contains documentation and changelog for the [Trafikkdata API](https://trafikkdata-api.atlas.vegvesen.no), documentation for the [Trafikkdata.no](https://www.vegvesen.no/trafikkdata/) website, and information about the trafikkdata domain.
 
-## Feedback
+## 💬 Feedback
 
 Problems, questions or feedback to the Trafikkdata API or website? Create an [issue](https://github.com/trafikkdata/trafikkdata.no-dokumentasjon/issues), and let us know what's on your mind.
 
-## Documentation
+## 📝 Documentation
 
 Following is the documentation that is also available on trafikkdata.no.
 
