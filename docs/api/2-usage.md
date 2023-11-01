@@ -1,6 +1,6 @@
 ## Usage
 
-The Traffic Data API is located at [https://www.vegvesen.no/trafikkdata/api](https://www.vegvesen.no/trafikkdata/api).
+The Traffic Data API is located at [https://trafikkdata-api.atlas.vegvesen.no](https://trafikkdata-api.atlas.vegvesen.no).
 
 The API uses GraphQL, which is a data query language for APIs.
 It defines a schema composed of different types and fields on those types.
@@ -12,7 +12,7 @@ Queries can also be performed programatically from a wide range of programming l
 For more information, visit [graphql.org/code](https://graphql.org/code/).
 
 In the following, we present a few examples of API queries.
-For full documentation of all available queries and fields, use the [GraphiQL interface](https://www.vegvesen.no/trafikkdata/api) and click on `Docs`.
+For full documentation of all available queries and fields, use the [GraphiQL interface](https://trafikkdata-api.atlas.vegvesen.no) and click on `Docs`.
 
 ### Traffic registration points
 
@@ -38,7 +38,7 @@ The following example lists all traffic registration points on European routes, 
 }
 ```
 
-[Open query in GraphiQL](<https://www.vegvesen.no/trafikkdata/api/?query=%7B%0A%20%20trafficRegistrationPoints(searchQuery%3A%20%7BroadCategoryIds%3A%20%5BE%5D%7D)%20%7B%0A%20%20%20%20id%0A%20%20%20%20name%0A%20%20%20%20location%20%7B%0A%20%20%20%20%20%20coordinates%20%7B%0A%20%20%20%20%20%20%20%20latLon%20%7B%0A%20%20%20%20%20%20%20%20%20%20lat%0A%20%20%20%20%20%20%20%20%20%20lon%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D>).
+[Open query in GraphiQL](<https://trafikkdata-api.atlas.vegvesen.no/?query=%7B%0A%20%20trafficRegistrationPoints(searchQuery%3A%20%7BroadCategoryIds%3A%20%5BE%5D%7D)%20%7B%0A%20%20%20%20id%0A%20%20%20%20name%0A%20%20%20%20location%20%7B%0A%20%20%20%20%20%20coordinates%20%7B%0A%20%20%20%20%20%20%20%20latLon%20%7B%0A%20%20%20%20%20%20%20%20%20%20lat%0A%20%20%20%20%20%20%20%20%20%20lon%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D>).
 
 ### Traffic volume
 
@@ -76,7 +76,7 @@ The following example retrieves hourly traffic volume for two hours for the traf
 }
 ```
 
-[Open query in GraphiQL](<https://www.vegvesen.no/trafikkdata/api/?query=%7B%0A%20%20trafficData(trafficRegistrationPointId%3A%20%2244656V72812%22)%20%7B%0A%20%20%20%20volume%20%7B%0A%20%20%20%20%20%20byHour(from%3A%20%222019-10-24T12%3A00%3A00%2B02%3A00%22%2C%20to%3A%20%222019-10-24T14%3A00%3A00%2B02%3A00%22)%20%7B%0A%20%20%20%20%20%20%20%20edges%20%7B%0A%20%20%20%20%20%20%20%20%20%20node%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20from%0A%20%20%20%20%20%20%20%20%20%20%20%20to%0A%20%20%20%20%20%20%20%20%20%20%20%20total%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20volumeNumbers%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20volume%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20coverage%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20percentage%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D>)
+[Open query in GraphiQL](<https://trafikkdata-api.atlas.vegvesen.no/?query=%7B%0A%20%20trafficData(trafficRegistrationPointId%3A%20%2244656V72812%22)%20%7B%0A%20%20%20%20volume%20%7B%0A%20%20%20%20%20%20byHour(from%3A%20%222019-10-24T12%3A00%3A00%2B02%3A00%22%2C%20to%3A%20%222019-10-24T14%3A00%3A00%2B02%3A00%22)%20%7B%0A%20%20%20%20%20%20%20%20edges%20%7B%0A%20%20%20%20%20%20%20%20%20%20node%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20from%0A%20%20%20%20%20%20%20%20%20%20%20%20to%0A%20%20%20%20%20%20%20%20%20%20%20%20total%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20volumeNumbers%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20volume%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20coverage%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20percentage%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D>)
 The hourly and daily traffic volume (`byHour` and `byDay`) queries use pagination to split the data into pages, so that clients can process smaller chunks (maximum 100 hours/days) of data at a time.
 To retrieve the next page, use the `cursor` value from the last `node` on the current page as the `after` argument in the next query.
 
@@ -112,7 +112,7 @@ The following example retrieves average daily traffic volume per year for the tr
 }
 ```
 
-[Open query in GraphiQL](<https://www.vegvesen.no/trafikkdata/api/?query=%7B%0A%20%20trafficData(trafficRegistrationPointId%3A%20%2244656V72812%22)%20%7B%0A%20%20%20%20volume%20%7B%0A%20%20%20%20%20%20average%20%7B%0A%20%20%20%20%20%20%20%20daily%20%7B%0A%20%20%20%20%20%20%20%20%20%20byYear%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20year%0A%20%20%20%20%20%20%20%20%20%20%20%20total%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20volume%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20average%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20confidenceInterval%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20lowerBound%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20upperBound%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20coverage%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20percentage%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D>).
+[Open query in GraphiQL](<https://trafikkdata-api.atlas.vegvesen.no/?query=%7B%0A%20%20trafficData(trafficRegistrationPointId%3A%20%2244656V72812%22)%20%7B%0A%20%20%20%20volume%20%7B%0A%20%20%20%20%20%20average%20%7B%0A%20%20%20%20%20%20%20%20daily%20%7B%0A%20%20%20%20%20%20%20%20%20%20byYear%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20year%0A%20%20%20%20%20%20%20%20%20%20%20%20total%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20volume%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20average%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20confidenceInterval%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20lowerBound%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20upperBound%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20coverage%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20percentage%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D>).
 
 #### Traffic volume indices
 
@@ -148,7 +148,7 @@ where `962` is the current ID of Vegtrafikkindeksen, which encompasses the whole
 }
 ```
 
-[Open query in GraphiQL](<https://www.vegvesen.no/trafikkdata/api/?query=%7B%0A%09publishedAreaTrafficVolumeIndex(id%3A%20962%2C%20year%3A%202019%2C%20month%3A%2012)%20%7B%0A%20%20%20%20aggregatedTrafficVolumeIndex(areaTypes%3A%20%5BCOUNTRY%5D)%20%7B%0A%20%20%20%20%20%20byRoadCategoryCombination%20%7B%0A%20%20%20%20%20%20%20%20roadCategoryCombination%0A%20%20%20%20%20%20%20%20last12MonthsIndicesByDayType%20%7B%0A%20%20%20%20%20%20%20%20%20%20dayType%0A%20%20%20%20%20%20%20%20%20%20byLengthRange%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20lengthRange%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20representation%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20volumeIndexNumber%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20percentageChange%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A>)
+[Open query in GraphiQL](<https://trafikkdata-api.atlas.vegvesen.no/?query=%7B%0A%09publishedAreaTrafficVolumeIndex(id%3A%20962%2C%20year%3A%202019%2C%20month%3A%2012)%20%7B%0A%20%20%20%20aggregatedTrafficVolumeIndex(areaTypes%3A%20%5BCOUNTRY%5D)%20%7B%0A%20%20%20%20%20%20byRoadCategoryCombination%20%7B%0A%20%20%20%20%20%20%20%20roadCategoryCombination%0A%20%20%20%20%20%20%20%20last12MonthsIndicesByDayType%20%7B%0A%20%20%20%20%20%20%20%20%20%20dayType%0A%20%20%20%20%20%20%20%20%20%20byLengthRange%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20lengthRange%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20representation%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20volumeIndexNumber%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20percentageChange%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A>)
 
 #### Other queries
 
@@ -163,7 +163,7 @@ Usage examples from different languages that query the API for all traffic regis
 Example of using the API from javascript:
 
 ```javascript
-fetch("https://www.vegvesen.no/trafikkdata/api/", {
+fetch("https://trafikkdata-api.atlas.vegvesen.no", {
   method: "POST",
   headers: { "content-type": "application/json" },
   body: JSON.stringify({
@@ -193,7 +193,7 @@ fetch("https://www.vegvesen.no/trafikkdata/api/", {
 Example of using the API from `curl`:
 
 ```shell
-curl 'https://www.vegvesen.no/trafikkdata/api/' \
+curl 'https://trafikkdata-api.atlas.vegvesen.no' \
   -X POST \
   -H 'content-type: application/json' \
   --data '{ "query": "{ trafficRegistrationPoints(searchQuery: {roadCategoryIds: [F] }) { id name location { coordinates { latLon { lat lon } } } } }", "variables": null}'

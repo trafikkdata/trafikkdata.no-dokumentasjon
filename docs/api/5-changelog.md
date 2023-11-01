@@ -2,6 +2,12 @@
 
 All notable changes to the API will be documented here.
 
+### 01-11-2023
+
+The [Trafikkdata API](https://trafikkdata-api.atlas.vegvesen.no) is now hosted on Atlas, and has been moved from [www.vegvesen.no/trafikkdata/api](https://www.vegvesen.no/trafikkdata/api) to [trafikkdata-api.atlas.vegvesen.no](https://trafikkdata-api.atlas.vegvesen.no).
+
+Please use the new URL to access the **API**. The old URL is deprecated, and will no longer be available after **01.05.2024**.
+
 ### 19-09-2023
 
 No breaking changes, only additions.
