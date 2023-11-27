@@ -115,20 +115,14 @@ The following example retrieves average daily traffic volume per year for the tr
 [Open query in GraphiQL](<https://trafikkdata-api.atlas.vegvesen.no/?query=%7B%0A%20%20trafficData(trafficRegistrationPointId%3A%20%2244656V72812%22)%20%7B%0A%20%20%20%20volume%20%7B%0A%20%20%20%20%20%20average%20%7B%0A%20%20%20%20%20%20%20%20daily%20%7B%0A%20%20%20%20%20%20%20%20%20%20byYear%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20year%0A%20%20%20%20%20%20%20%20%20%20%20%20total%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20volume%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20average%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20confidenceInterval%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20lowerBound%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20upperBound%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20coverage%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20percentage%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D>).
 
 #### Standard Error in Traffic Data
-- **Definition**: In the context of traffic data, the standard error measures the variability of the XDT (e.g. Monthly Average Daily Traffic, Seasonal Average Daily Traffic, or Annual Average Daily Traffic), from the population mean.
-- **Formula**: The standard error for XDT is calculated as the standard deviation $\sigma$ of the traffic data divided by the square root of the number of days included (n), i.e., \( SEM = \frac{\sigma}{\sqrt{n}} \).
+In the context of traffic data, the standard error measures the variability of the XDT (e.g. Monthly Average Daily Traffic, Seasonal Average Daily Traffic, or Annual Average Daily Traffic), from the mean of all measured days in the given time period. The standard error for XDT is calculated as the standard deviation of the traffic data divided by the square root of the number of days included.
 
 #### Finite Population Correction (FPC) Factor
-- **Application in Traffic Data**: The FPC is applied when the number of days sampled is a significant fraction of the total days in the observation period.
-- **Formula and Specific Case**: The FPC is calculated as $\sqrt{\frac{N - n}{N - 1}}$ , where $N$ is the total number of days in the period, and $n$ is the number of sampled days.
+The FPC is applied when the number of days sampled is a significant fraction of the total days in the observation period.
+The factor is calculated by taking square root of the fraction where the numerator is the difference between the total number of days in the period and the number of sampled days, and the denominator is one less than the total number of days in the period.
 
 #### Corrected Standard Error
-- **Adjustment for Traffic Data**: The `correctedStandardError` for traffic data is the standard error adjusted by the FPC, particularly relevant when the sample size (number of days) forms a large fraction of the total period.
-- **Combined Formula For Corrected Standard Error**: 
-  $SE_{FPC} = \frac{\sigma}{\sqrt{n}} \times \sqrt{\frac{N - n}{N - 1}} $
-  This formula adjusts for overestimation in the variability of the XDT mean when the sample size is large.
-
-The `correctedStandardError` field offers a more precise estimation of the variability in traffic data, accounting for the finite nature of the sample period.  
+The `correctedStandardError` for traffic data is the standard error adjusted by the FPC, particularly relevant when the sample size (number of days) forms a large fraction of the total period. It is calculated by multiplying the FPC with the standard error. The field offers a more precise estimation of the variability in traffic data, accounting for the finite nature of the sample period.  
 
 #### Traffic volume indices
 
