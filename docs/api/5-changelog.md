@@ -2,6 +2,13 @@
 
 All notable changes to the API will be documented here.
 
+### 27-11-2023
+
+Added field `volume.correctedStandardError` in the Trafikkdata API, which represents the standard error adjusted for the finite population correction (FPC). This correction is significant when a sample is a sizable fraction of the total population, which is often the case for average traffic counts. The corrected standard error is calculated by multiplying the standard error by the FPC factor. This adjustment yields a more precise estimation of the traffic sample mean's variability at the selected resolution.
+
+The confidence interval in the API also utilizes the corrected standard error instead of the standard deviation, providing a more accurate range considering the finite population correction.
+
+
 ### 01-11-2023
 
 The [Trafikkdata API](https://trafikkdata-api.atlas.vegvesen.no) is now hosted on Atlas, and has been moved from [www.vegvesen.no/trafikkdata/api](https://www.vegvesen.no/trafikkdata/api) to [trafikkdata-api.atlas.vegvesen.no](https://trafikkdata-api.atlas.vegvesen.no).
