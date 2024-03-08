@@ -2,6 +2,10 @@
 
 All notable changes to the API will be documented here.
 
+### 08-03-2024
+
+Notification about future change: On Wednesday, 13-03-2024, the enum value `OperationalStatus.TEMPRORARILY_OUT_OF_SERVICE` will be removed, and replaced by `OperationalStatus.OUT_OF_SERVICE`. The semantics of the new value is the same as the old one, so it is a drop-in replacement.
+
 ### 27-11-2023
 
 Added field `volume.correctedStandardError` in the Trafikkdata API, which represents the standard error adjusted for the finite population correction (FPC). This correction is significant when a sample is a sizable fraction of the total population, which is often the case for average traffic counts. The corrected standard error is calculated by multiplying the standard error by the FPC factor. This adjustment yields a more precise estimation of the traffic sample mean's variability at the selected resolution.
