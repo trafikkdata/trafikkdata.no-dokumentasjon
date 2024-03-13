@@ -2,6 +2,10 @@
 
 All notable changes to the API will be documented here.
 
+### 13-03-2024
+
+As notified before, the enum value `OperationalStatus.TEMPORARILY_OUT_OF_SERVICE` has been replaced by `OperationalStatus.OUT_OF_SERVICE`.
+
 ### 08-03-2024
 
 Notification about future change: On Wednesday, 13-03-2024, the enum value `OperationalStatus.TEMPRORARILY_OUT_OF_SERVICE` will be removed, and replaced by `OperationalStatus.OUT_OF_SERVICE`. The semantics of the new value is the same as the old one, so it is a drop-in replacement.
