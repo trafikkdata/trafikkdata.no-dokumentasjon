@@ -2,6 +2,14 @@
 
 All notable changes to the API will be documented here.
 
+### 01-08-2024
+
+No breaking changes, only deprecations.
+
+#### Deprecated fields
+
+The `meteringDirectionChanged` fields have been deprecated. Use of these fields should be replaced.
+
 ### 13-03-2024
 
 As notified before, the enum value `OperationalStatus.TEMPORARILY_OUT_OF_SERVICE` has been replaced by `OperationalStatus.OUT_OF_SERVICE`.
