@@ -2,6 +2,10 @@
 
 All notable changes to the API will be documented here.
 
+### 17-09-2024
+
+**Breaking changes to the API.** The fields `meteringDirectionChanged` have been removed from the API.
+
 ### 01-08-2024
 
 No breaking changes, only deprecations.
