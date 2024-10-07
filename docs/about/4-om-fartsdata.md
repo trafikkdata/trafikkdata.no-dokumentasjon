@@ -16,7 +16,7 @@ Under er en oversikt over hvordan du skal gå frem for å få tilgang til fartsd
 
 For deg som er ansatt i Statens Vegvesen.
 
-- Logg inn på <ins>[selvbetjeningsportalen](https://www.vegvesen.no/idportalen/selvbetjening/) </ins> for tilganger og søk om enten “Trafikkdata – Fart – Alle veier” eller “Trafikkdata – Fart – Riksveier” etter tjenstlig behov
+- Logg inn på <ins>[selvbetjeningsportalen](https://www.vegvesen.no/idportalen/selvbetjening/)</ins> for tilganger og søk om enten “Trafikkdata – Fart – Alle veier” eller “Trafikkdata – Fart – Riksveier” etter tjenstlig behov
 - Logg inn og ta fartsdata i bruk
 
 #### For andre vegeiere

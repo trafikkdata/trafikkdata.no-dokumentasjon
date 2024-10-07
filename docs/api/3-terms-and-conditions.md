@@ -1,6 +1,6 @@
 ## Terms and conditions
 
-Data available through the Traffic Data API is licensed under <ins>[the Norwegian Licence for Open Government Data (NLOD)](https://data.norge.no/nlod/en/) </ins> This includes, but is not limited to, the following terms and conditions. For further details, please refer to the complete licence.
+Data available through the Traffic Data API is licensed under <ins>[the Norwegian Licence for Open Government Data (NLOD)](https://data.norge.no/nlod/en/)</ins> This includes, but is not limited to, the following terms and conditions. For further details, please refer to the complete licence.
 
 You are allowed to:
 
