@@ -11,4 +11,4 @@ The vehicles are classified according to their measured length.
 All data has quality parameters associated with it, indicating their uncertainty and relevance.
 All use of the data must take the quality parameters into account.
 
-Read more on traffic data and data quality under <ins>[Om trafikkdata (Norwegian only)](#/om-trafikkdata).
+Read more on traffic data and data quality under <ins>[Om trafikkdata (Norwegian only)](#/om-trafikkdata)</ins>.
