@@ -31,7 +31,7 @@ The confidence interval in the API also utilizes the corrected standard error in
 
 ### 01-11-2023
 
-The [Trafikkdata API](https://trafikkdata-api.atlas.vegvesen.no) is now hosted on Atlas, and has been moved from [www.vegvesen.no/trafikkdata/api](https://www.vegvesen.no/trafikkdata/api) to [trafikkdata-api.atlas.vegvesen.no](https://trafikkdata-api.atlas.vegvesen.no).
+The <a href="https://trafikkdata-api.atlas.vegvesen.no"  style="color: #44f55; text-decoration: underline;">Trafikkdata API</a> is now hosted on Atlas, and has been moved from <a href="https://www.vegvesen.no/trafikkdata/api"  style="color: #44f55; text-decoration: underline;">www.vegvesen.no/trafikkdata/api</a> to <a href="https://trafikkdata-api.atlas.vegvesen.no"  style="color: #44f55; text-decoration: underline;">trafikkdata-api.atlas.vegvesen.no</a>. 
 
 Please use the new URL to access the **API**. The old URL is deprecated, and will no longer be available after **01.05.2024**.
 
@@ -79,4 +79,4 @@ The `validSpeedRatio` and `validLengthRatio` fields for hour and day aggregates 
 
 ### 26-02-2021
 
-Changes to the Trafikkdata API will be published here. In addition the changes will be availible on the Twitter account [@VegvesenData](https://twitter.com/vegvesendata).
+Changes to the Trafikkdata API will be published here. In addition the changes will be availible on the Twitter account <a href="https://twitter.com/vegvesendata"  style="color: #44f55; text-decoration: underline;">@VegvesenData.</a> 

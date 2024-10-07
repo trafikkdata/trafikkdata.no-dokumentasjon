@@ -1,4 +1,4 @@
-Trafikkdata er data om trafikk på vegnettet. Statens vegvesens trafikkdata omfatter punktmålinger og strekningsmålinger foretatt med måleutstyr langs vegen. [Trafikkdata.no](http://trafikkdata.no) har punktmålinger fra trafikkregistreringsstasjoner på det statlige og fylkeskommunale vegnettet samt noen kommunale veger. [Vegvesen.no/trafikk](https://vegvesen.no/trafikk/) har strekningsmålinger av reisetid mellom reisetidsregistreringsstasjoner i og rundt de største byene og på noen hovedveger.
+Trafikkdata er data om trafikk på vegnettet. Statens vegvesens trafikkdata omfatter punktmålinger og strekningsmålinger foretatt med måleutstyr langs vegen. <a href="http://trafikkdata.no"  style="color: #44f55; text-decoration: underline;">Trafikkdata.no</a> har punktmålinger fra trafikkregistreringsstasjoner på det statlige og fylkeskommunale vegnettet samt noen kommunale veger. <a href="https://vegvesen.no/trafikk/"  style="color: #44f55; text-decoration: underline;">Vegvesen.no/trafikk</a> har strekningsmålinger av reisetid mellom reisetidsregistreringsstasjoner i og rundt de største byene og på noen hovedveger.
 
 Statens vegvesen har som mål å kunne levere trafikkdata med kjent kvalitet og riktig detaljeringsgrad, samt at disse dataene er etterspurt og samlet fra riktig vegnett.
 
@@ -6,7 +6,7 @@ Trafikkregistreringsstasjonene registrerer både sykler og motorkjøretøy. I sy
 
 Trafikkregistreringsstasjoner har ett eller flere trafikkregistreringspunkter knyttet til seg. Trafikkregistreringspunkter er stedfesting på vegen der trafikken blir registrert, og all informasjon om trafikkregistreringspunktene og tilhørende trafikkdata er tilgjengelige her i trafikkdataportalen.
 
-Trafikkregistreringsstasjoner består av fysisk infrastruktur ved vegen, som skap o.l. Informasjon om disse kan være relevant for de som drifter og vedlikeholder veg og tilknyttet infrastruktur, og er tilgjengelig i NVDB, se for eksempel [vegkart.no](http://vegkart.no).
+Trafikkregistreringsstasjoner består av fysisk infrastruktur ved vegen, som skap o.l. Informasjon om disse kan være relevant for de som drifter og vedlikeholder veg og tilknyttet infrastruktur, og er tilgjengelig i NVDB, se for eksempel <a href="http://vegkart.no"  style="color: #44f55; text-decoration: underline;">vegkart.no</a>. 
 
 ### Motorkjøretøy
 
@@ -46,7 +46,7 @@ Alle trafikkregistreringspunkter er stedfestet på vegnettet med en vegsystemref
 
 Trafikken registreres i hvert kjørefelt, som benevnes med et kjørefeltnummer. Kjørefeltene nummereres fra midten av vegen og utover til hver side. Det brukes oddetall på felt som har kjøreretning med metreringsretningen, og partall på kjørefelt mot metreringsretningen.
 
-For mer detaljer om vegsystemreferansen, se Statens vegvesens Håndbok V830 Nasjonalt vegreferansesystem, som er tilgjengelig på [vegvesen.no](https://www.vegvesen.no/fag/publikasjoner/handboker).
+For mer detaljer om vegsystemreferansen, se Statens vegvesens Håndbok V830 Nasjonalt vegreferansesystem, som er tilgjengelig på <a href="https://www.vegvesen.no/fag/publikasjoner/handboker"  style="color: #44f55; text-decoration: underline;">vegvesen.no</a>. 
 
 #### Kjørefeltnummer ved snudd metreringsretning
 

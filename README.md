@@ -1,25 +1,25 @@
 # 🗺️ Trafikkdata.no
 
-This repository contains documentation and changelog for the [Trafikkdata API](https://trafikkdata-api.atlas.vegvesen.no), documentation for the [Trafikkdata.no](https://www.vegvesen.no/trafikkdata/) website, and information about the trafikkdata domain.
+This repository contains documentation and changelog for the <a href="https://trafikkdata-api.atlas.vegvesen.no"  style="color: #44f55; text-decoration: underline;">Trafikkdata API</a>, documentation for the <a href="https://www.vegvesen.no/trafikkdata/"  style="color: #44f55; text-decoration: underline;">Trafikkdata.no</a> website, and information about the trafikkdata domain.
 
 ## 💬 Feedback
 
-Problems, questions or feedback to the Trafikkdata API or website? Create an [issue](https://github.com/trafikkdata/trafikkdata.no-dokumentasjon/issues), and let us know what's on your mind.
+Problems, questions or feedback to the Trafikkdata API or website? Create an <a href="https://github.com/trafikkdata/trafikkdata.no-dokumentasjon/issues"  style="color: #44f55; text-decoration: underline;">issue</a>, and let us know what's on your mind.
 
 ## 📝 Documentation
 
 Following is the documentation that is also available on trafikkdata.no.
 
-### [Om Trafikkdata.no](docs/about/1-om-trafikkdata.md)
+### <a href="docs/about/1-om-trafikkdata.md"  style="color: #44f55; text-decoration: underline;">Om Trafikkdata.no</a>
 
-- [Datakvalitet](docs/about/2-datakvalitet.md)
-- [Beregningsmetodikk](docs/about/3-beregningsmetodikk.md)
-- [Om eksport](docs/about/4-om-eksport.md)
-- [Endringslogg](docs/about/5-endringslogg.md)
+- <a href="docs/about/2-datakvalitet.md"  style="color: #44f55; text-decoration: underline;">Datakvalitet</a>
+- <a href="docs/about/3-beregningsmetodikk.md"  style="color: #44f55; text-decoration: underline;">Beregningsmetodikk</a>
+- <a href="docs/about/4-om-eksport.md"  style="color: #44f55; text-decoration: underline;">Om eksport</a>
+- <a href="docs/about/5-endringslogg.md"  style="color: #44f55; text-decoration: underline;">Endringslogg</a>
 
-### [About API](docs/api/1-about-API.md)
+### <a href="docs/api/1-about-API.md"  style="color: #44f55; text-decoration: underline;">About API</a>
 
-- [Usage](docs/api/2-usage.md)
-- [Terms and conditions](docs/api/3-terms-and-conditions.md)
-- [Contact](docs/api/4-contact.md)
-- [Changelog](docs/api/5-changelog.md)
+- <a href="docs/api/2-usage.md"  style="color: #44f55; text-decoration: underline;">Usage</a>
+- <a href="docs/api/3-terms-and-conditions.md"  style="color: #44f55; text-decoration: underline;">Terms and conditions</a>
+- <a href="docs/api/4-contact.md"  style="color: #44f55; text-decoration: underline;">Contact</a>
+- <a href="docs/api/5-changelog.md"  style="color: #44f55; text-decoration: underline;">Changelog</a>
