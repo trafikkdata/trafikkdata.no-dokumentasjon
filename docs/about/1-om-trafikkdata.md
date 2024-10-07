@@ -53,5 +53,3 @@ For mer detaljer om vegsystemreferansen, se Statens vegvesens Håndbok V830 Nasj
 Vegsystemreferansen endrer seg når selve vegnettet endrer seg, som ved bygging av ny veg. Retningen som vegen er oppmålt i kan snus, og dette har skjedd i en del tilfeller i forbindelse med innføring av nytt vegreferansesystem i 2019. Endret metreringsretning medfører at kjørefeltnummer også endrer seg. I Trafikkdataportalen vises alltid kjørefeltnummer i henhold til nåværende metrering, også for historiske data. Kjørefeltenes beskrivelser med stedsnavn vil alltid være korrekt og uendret for det fysiske kjørefeltet, selv om nummeret har endret seg.
 
 Trafikkregistreringspunktenes vegreferansehistorikk angir periodene hvor metreringsretningen er snudd siden første gang punktet ble satt i drift.
-
-<a href="https://www.google.com/" style="color: black; text-decoration: underline;text-decoration-style: dotted;">custom link</a>
