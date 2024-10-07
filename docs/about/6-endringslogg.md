@@ -17,4 +17,4 @@ CSV-eksport: kolonne-overskriften "Volum" endres til "Trafikkmengde". Eventuelle
 
 ### 24.02.2021
 
-Endringer på Trafikkdata.no vil publiseres her, i tillegg til å bli publisert på Twitter-kontoen [@VegvesenData](https://twitter.com/vegvesendata).
+Endringer på Trafikkdata.no vil publiseres her, i tillegg til å bli publisert på Twitter-kontoen <ins>[@VegvesenData](https://twitter.com/vegvesendata). </ins> 

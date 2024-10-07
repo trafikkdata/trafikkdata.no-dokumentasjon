@@ -1,22 +1,22 @@
 ## Usage
 
-The Traffic Data API is located at [https://trafikkdata-api.atlas.vegvesen.no](https://trafikkdata-api.atlas.vegvesen.no).
+The Traffic Data API is located at <ins>[https://trafikkdata-api.atlas.vegvesen.no](https://trafikkdata-api.atlas.vegvesen.no). </ins> 
 
 The API uses GraphQL, which is a data query language for APIs.
 It defines a schema composed of different types and fields on those types.
 It allows for introspection of the API and for creating strongly typed clients.
-For more general information on GraphQL, visit [graphql.org/learn](https://graphql.org/learn/).
+For more general information on GraphQL, visit <ins>[graphql.org/learn](https://graphql.org/learn/). </ins> 
 
 When opened in a web browser, the API is presented through GraphiQL, a graphical user interface for writing and executing queries.
 Queries can also be performed programatically from a wide range of programming languages.
-For more information, visit [graphql.org/code](https://graphql.org/code/).
+For more information, visit <ins>[graphql.org/code](https://graphql.org/code/). </ins> 
 
 In the following, we present a few examples of API queries.
-For full documentation of all available queries and fields, use the [GraphiQL interface](https://trafikkdata-api.atlas.vegvesen.no) and click on `Docs`.
+For full documentation of all available queries and fields, use the <ins>[GraphiQL interface](https://trafikkdata-api.atlas.vegvesen.no) </ins> and click on `Docs`.
 
 ### Traffic registration points
 
-A traffic registration point is a location on the road where traffic is registered. For more information, see [Om trafikkdata](om-trafikkdata).
+A traffic registration point is a location on the road where traffic is registered. For more information, see <ins>[Om trafikkdata](om-trafikkdata). </ins> 
 The `trafficRegistrationPoints` query allows users to list traffic registration points that satisfy certain criteria.
 
 The following example lists all traffic registration points on European routes, with traffic registration point ID, name and coordinates (WGS-84).
