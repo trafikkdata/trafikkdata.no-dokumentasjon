@@ -10,16 +10,16 @@ Problems, questions or feedback to the Trafikkdata API or website? Create an <in
 
 Following is the documentation that is also available on trafikkdata.no.
 
-### <ins>[Om Trafikkdata.no](docs/about/1-om-trafikkdata.md)
+### <ins>[Om Trafikkdata.no](docs/about/1-om-trafikkdata.md)</ins>
 
-- <ins>[Datakvalitet](docs/about/2-datakvalitet.md)
-- <ins>[Beregningsmetodikk](docs/about/3-beregningsmetodikk.md)
-- <ins>[Om eksport](docs/about/4-om-eksport.md)
-- <ins>[Endringslogg](docs/about/5-endringslogg.md)
+- <ins>[Datakvalitet](docs/about/2-datakvalitet.md)</ins>
+- <ins>[Beregningsmetodikk](docs/about/3-beregningsmetodikk.md)</ins>
+- <ins>[Om eksport](docs/about/4-om-eksport.md)</ins>
+- <ins>[Endringslogg](docs/about/5-endringslogg.md)</ins>
 
-### <ins>[About API](docs/api/1-about-API.md)
+### <ins>[About API](docs/api/1-about-API.md)</ins>
 
-- <ins>[Usage](docs/api/2-usage.md)
-- <ins>[Terms and conditions](docs/api/3-terms-and-conditions.md)
-- <ins>[Contact](docs/api/4-contact.md)
-- <ins>[Changelog](docs/api/5-changelog.md)
+- <ins>[Usage](docs/api/2-usage.md)</ins>
+- <ins>[Terms and conditions](docs/api/3-terms-and-conditions.md)</ins>
+- <ins>[Contact](docs/api/4-contact.md)</ins>
+- <ins>[Changelog](docs/api/5-changelog.md)</ins>
