@@ -24,8 +24,8 @@ For deg som er ansatt i Statens Vegvesen.
 For deg som ikke er ansatt i Statens Vegvesen, men som trenger fartsdata.
 
 - Kontakt organisasjonen du trenger tilgang til fartsdata fra og be om Altinnrollen “Administrere trafikkdata”
-- Kontakt trafikkdata@vegvesen.no når du har fått rollen og be om tilgang til fartsdata
+- Kontakt <a href="mailto:trafikkdata@vegvesen.no"  style="color: #44f55; text-decoration: underline;">trafikkdata@vegvesen.no</a> når du har fått rollen og be om tilgang til fartsdata
 - Svar på invitasjonen du får tilsendt på e-post
 - Logg inn og ta fartsdata i bruk
 
-Dersom du har spørsmål eller andre behov for fartsdata, send en e-post til trafikkdata@vegvesen.no.
+Dersom du har spørsmål eller andre behov for fartsdata, send en e-post til <a href="mailto:trafikkdata@vegvesen.no" style="color: #44f55; text-decoration: underline;">trafikkdata@vegvesen.no</a>.
