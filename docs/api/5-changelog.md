@@ -2,6 +2,14 @@
 
 All notable changes to the API will be documented here.
 
+### 25-03-2026
+
+The GraphiQL web interface has moved to a new URL: <a href="https://trafikkdata.no/graphql"  style="color: #44f55; text-decoration: underline;">trafikkdata.no/graphql</a>. Use this URL to explore and test queries in your browser.
+
+The API endpoint for direct/programmatic access remains unchanged at <a href="https://trafikkdata-api.atlas.vegvesen.no"  style="color: #44f55; text-decoration: underline;">trafikkdata-api.atlas.vegvesen.no</a>.
+
+Opening the old URL (<a href="https://trafikkdata-api.atlas.vegvesen.no"  style="color: #44f55; text-decoration: underline;">trafikkdata-api.atlas.vegvesen.no</a>) in a web browser will no longer display the GraphiQL interface. GET requests to the old URL will return HTTP status 410 (Gone). Please use <a href="https://trafikkdata.no/graphql"  style="color: #44f55; text-decoration: underline;">trafikkdata.no/graphql</a> instead.
+
 ### 17-09-2024
 
 **Breaking changes to the API.** The fields `meteringDirectionChanged` have been removed from the API.
