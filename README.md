@@ -1,6 +1,6 @@
 # 🗺️ Trafikkdata.no
 
-This repository contains documentation and changelog for the <a href="https://trafikkdata-api.atlas.vegvesen.no"  style="color: #44f55; text-decoration: underline;">Trafikkdata API</a>, documentation for the <a href="https://www.vegvesen.no/trafikkdata/"  style="color: #44f55; text-decoration: underline;">Trafikkdata.no</a> website, and information about the trafikkdata domain.
+This repository contains documentation and changelog for the <a href="https://trafikkdata-api.atlas.vegvesen.no"  style="color: #44f55; text-decoration: underline;">Trafikkdata API</a> (with a <a href="https://trafikkdata.no/graphql"  style="color: #44f55; text-decoration: underline;">GraphiQL web interface</a>), documentation for the <a href="https://www.vegvesen.no/trafikkdata/"  style="color: #44f55; text-decoration: underline;">Trafikkdata.no</a> website, and information about the trafikkdata domain.
 
 ## 💬 Feedback
 
