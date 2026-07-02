@@ -12,3 +12,8 @@ about/7-om-dekningsgrad.md
 about/8-tilgjengelighet.md
 about/6-endringslogg.md
 contact/Kontakt.md
+trafficIndex/cityIndex/1-om-byindeks.md
+trafficIndex/cityIndex/2-se-byindeksen.md
+trafficIndex/cityIndex/3-datagrunnlag.md
+trafficIndex/cityIndex/4-metodikk.md
+trafficIndex/cityIndex/5-ny-metode.md
